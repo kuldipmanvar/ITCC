@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ITCCKuldipTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ITCCKuldipTest
+  pod 'IQKeyboardManagerSwift'
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'Alamofire', '~> 4.0'
+  pod 'SwiftyJSON'
+  pod 'MBProgressHUD'
+  pod 'MaterialComponents/TextControls+FilledTextAreas'
+  pod 'MaterialComponents/TextControls+FilledTextFields'
+  pod 'MaterialComponents/TextControls+OutlinedTextAreas'
+  pod 'MaterialComponents/TextControls+OutlinedTextFields'
+  pod 'DropDown'
+  target 'ITCCKuldipTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ITCCKuldipTestUITests' do
+    # Pods for testing
+  end
+
+end

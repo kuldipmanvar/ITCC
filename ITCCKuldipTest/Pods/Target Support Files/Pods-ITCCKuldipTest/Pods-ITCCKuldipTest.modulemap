@@ -1,0 +1,6 @@
+framework module Pods_ITCCKuldipTest {
+  umbrella header "Pods-ITCCKuldipTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
